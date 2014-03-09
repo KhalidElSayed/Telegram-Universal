@@ -5410,6 +5410,11 @@
 			attributes = {
 				CLASSPREFIX = TG;
 				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					D08805AB156E8F3600311537 = {
+						DevelopmentTeam = U6LC622NKF;
+					};
+				};
 			};
 			buildConfigurationList = D08805A6156E8F3600311537 /* Build configuration list for PBXProject "Telegraph" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -6763,8 +6768,8 @@
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: David Neff (SGA99XHTJ6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Neff (SGA99XHTJ6)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegraph/Telegraph-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -6784,7 +6789,7 @@
 				"OTHER_CFLAGS[arch=*]" = "-Wextra";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = Telegram;
-				PROVISIONING_PROFILE = "DB754487-9766-4276-BA12-673C773881C5";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DB754487-9766-4276-BA12-673C773881C5";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -6805,8 +6810,8 @@
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegraph/Telegraph-Prefix.pch";
@@ -6828,7 +6833,7 @@
 				"OTHER_CFLAGS[arch=*]" = "-DNS_BLOCK_ASSERTIONS";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = Telegram;
-				PROVISIONING_PROFILE = "F5E068AA-A747-43BA-BEA6-F126BC4A5CBF";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F5E068AA-A747-43BA-BEA6-F126BC4A5CBF";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
